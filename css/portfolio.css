@@ -1,0 +1,286 @@
+body{
+    position: relative
+}
+
+/*header start*/
+
+.nav-color{
+    border-bottom: 1px ridge #365ebf;
+    background: #264284; /* Old browsers */
+    background: -moz-linear-gradient(top,  #264284 0%, #365ebf 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#264284), color-stop(100%,#365ebf)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #264284 0%,#365ebf 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #264284 0%,#365ebf 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #264284 0%,#365ebf 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #264284 0%,#365ebf 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#264284', endColorstr='#365ebf',GradientType=0 ); /* IE6-9 */
+    padding: 1.5% 0% 1% 0%;
+}
+.shirnk{
+    background-color: rgba(0,0,0,0.5);
+    padding: 1.5% 0% 1% 0%;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+    border-bottom: 1px ridge #365ebf;
+    background: #264284;
+    background: -moz-linear-gradient(top, #264284 0%, #365ebf 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#264284), color-stop(100%,#365ebf));
+    background: -webkit-linear-gradient(top, #264284 0%,#365ebf 100%);
+    background: -o-linear-gradient(top, #264284 0%,#365ebf 100%);
+    background: -ms-linear-gradient(top, #264284 0%,#365ebf 100%);
+    background: linear-gradient(to bottom, #264284 0%,#365ebf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#264284', endColorstr='#365ebf',GradientType=0 );
+
+}
+.profile-image {
+    height: 150%;
+    width: 15%;
+}
+.banner-h2{
+    margin-top: 8%;
+}
+.banner-section{
+    margin-top: 2%;
+}
+/*banner end*/
+
+/*experiance start*/
+.experiance-heading{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #999999
+}
+.experi-left-sidebar{
+    border-right:1px solid rgba(55,55,55,0.31);
+    border-bottom:1px solid rgba(55,55,55,0.31);
+}
+.experi-left-sidebar p{
+    color: rgba(55,55,55,0.80)
+}
+.experi-right-sidebar{
+    border-bottom:1px solid rgba(55,55,55,0.31);
+}
+.experi-right-sidebar p{
+    color: rgba(55,55,55,0.80)
+}
+/*experiance end*/
+
+/*about end*/
+.about{
+    margin: 2% auto
+}
+.thumbnail {
+    position: relative;
+}
+.thumbnail-background {
+    height: 25em;
+    width: 100%;
+}
+.about-heading{
+    color: #dddddd;
+    border-bottom: .15em solid #fff8e5
+}
+
+.caption {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    width: 100%;
+}
+
+/*about end*/
+
+/*portfolio start*/
+
+.item img{
+    margin: 5%;
+}
+.iso-nav ul li{
+    cursor: pointer;
+}
+.iso-nav ul li:hover{
+    background: #D95254;
+}
+.portfolio-heading{
+    padding: .25em;
+    color: whitesmoke;
+}
+/*portfolio end*/
+
+/*skill start*/
+.skill-thumbnail-background{
+    height: 18em;
+    width: 100%;
+}
+.skill-heading{
+    color: #10A7AF;
+}
+.pie-title-center {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.pie-value {
+    display: block;
+    position: absolute;
+    font-size: 1.5em;
+    top: 27%;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+.skill-caption{
+    position: absolute;
+    top: 8%;
+    left: 0;
+    width: 100%;
+}
+/*skill end*/
+
+/*contact start*/
+.map iframe {
+    width: 100%;
+    height: 20em;
+}
+
+.form-section{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,727272+19,666666+25,595959+32,474747+39,2c2c2c+50,111111+60,2b2b2b+76,1c1c1c+91,131313+100 */
+    background: #4c4c4c; /* Old browsers */
+    background: -moz-linear-gradient(left, #4c4c4c 0%, #727272 19%, #666666 25%, #595959 32%, #474747 39%, #2c2c2c 50%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #4c4c4c 0%,#727272 19%,#666666 25%,#595959 32%,#474747 39%,#2c2c2c 50%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #4c4c4c 0%,#727272 19%,#666666 25%,#595959 32%,#474747 39%,#2c2c2c 50%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 */
+}
+.form-group{
+    margin-left: 10%;
+}
+.footer-thumbnail-background{
+    height: 37em;
+    width: 100%;
+}
+
+.caption-footer {
+    position: absolute;
+    top: 4%;
+    left: 0;
+    width: 100%;
+}
+.caption-footer h2{
+    font-size: 2.5rem;
+}
+.location {
+    padding-bottom: 5%;
+}
+.location i {
+    font-size: 4rem;
+    margin-left: 10rem;
+}
+/*contact end*/
+
+
+
+
+
+@media (min-width: 255px) and (max-width: 555px) {
+    .profile-image {
+        height: 155%;
+        width: 50%;
+    }
+    .banner-h2{
+        margin-top: 25%;
+    }
+    .banner-section{
+        margin-top: 10%;
+    }
+    .form-group{
+        margin-left: 0%;
+    }
+    .thumbnail-background {
+        height: 46em;
+        width: 100%;
+    }
+    .skill-thumbnail-background {
+        height: 21em;
+        width: 100%;
+    }
+    .skill-heading{
+        font-size: 1.5em;
+    }
+    .iso-nav ul li {
+        cursor: pointer;
+        font-size: 0.8em;
+    }
+    .location i {
+        font-size: 3rem;
+    }
+    .contact-right {
+        margin-left: 3em;
+    }
+    .footer-thumbnail-background{
+        height: 28em;
+    }
+}
+
+@media (min-width: 556px) and (max-width: 767px) {
+    .profile-image {
+        height: 155%;
+        width: 50%;
+    }
+    .banner-h2{
+        margin-top: 25%;
+    }
+    .banner-section{
+        margin-top: 4%;
+    }
+    .form-group{
+        margin-left: 0%;
+    }
+    .thumbnail-background {
+        height: 28em;
+        width: 100%;
+    }
+    .skill-thumbnail-background {
+        height: 21em;
+        width: 100%;
+    }
+    .skill-heading{
+        font-size: 1.5em;
+    }
+    .iso-nav ul li {
+        cursor: pointer;
+        font-size: 0.8em;
+    }
+    .location i {
+        font-size: 3rem;
+    }
+    .contact-right {
+        margin-left: 3em;
+    }
+    .img-thumbnail {
+        max-width: 160%;
+        height: 10em;
+    }
+}
+@media  (max-width: 1025px) {
+    .location i {
+        font-size: 3rem;
+        margin-left: 6rem;
+    }
+    .contact-right {
+        margin-left: 5em;
+    }
+}
+
+@media  (max-width: 1967px) {
+    .location i {
+        font-size: 3rem;
+        margin-left: 6rem;
+    }
+    .contact-right {
+        margin-left: 5em;
+    }
+}
+
